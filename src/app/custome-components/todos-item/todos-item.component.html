@@ -1,1 +1,9 @@
-<p>{{todo.title}}</p>
+<div>
+
+    <p>
+        <input (change)="onToggle(todo)" type="checkbox">
+        {{todo.title}}
+        <input (click)="onDelete(todo)" type="button" value="Delete" class="u-full-width">
+
+    </p>
+</div>

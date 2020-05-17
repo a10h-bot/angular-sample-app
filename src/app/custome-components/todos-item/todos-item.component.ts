@@ -14,4 +14,12 @@ export class TodosItemComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onToggle(todo) {
+    console.log("on Toggle");
+
+  }
+  onDelete(todo) {
+    console.log("On delete");
+
+  }
 }

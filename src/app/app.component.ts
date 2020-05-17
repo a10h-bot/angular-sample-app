@@ -10,8 +10,7 @@ export class AppComponent {
   name: string = 'Angular app';
 
   constructor() {
-    this.title = 'new sample-app';
-    console.log("12345");
+    this.title = 'Angular sample-app';
     this.changeName('This is new name');
   }
 
