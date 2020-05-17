@@ -1,1 +1,9 @@
-<p>todos works!</p>
+<!-- <app-todos-item *ngFor='let todo of todos' [todo]='todo'>
+</app-todos-item> -->
+
+
+<ul *ngFor="let todo of todos">
+    <li>{{todo.title}}</li>
+
+
+</ul>
